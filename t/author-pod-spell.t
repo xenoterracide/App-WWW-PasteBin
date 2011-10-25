@@ -24,6 +24,7 @@ add_stopwords(<DATA>);
 all_pod_files_spelling_ok('bin', 'lib');
 __DATA__
 SubmittingPatches
+pastebin
 Caleb
 Cushing
 Caleb

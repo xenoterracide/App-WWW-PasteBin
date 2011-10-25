@@ -4,8 +4,9 @@ use namespace::autoclean;
 
 BEGIN { extends 'Catalyst::Controller' }
 
-__PACKAGE__->config(namespace => '');
+our $VERSION = '0.001000'; # VERSION
 
+__PACKAGE__->config(namespace => '');
 
 sub index :Path :Args(0) {
     my ( $self, $c ) = @_;

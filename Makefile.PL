@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Catalyst based application",
+  "ABSTRACT" => "Modern Perl PasteBin",
   "AUTHOR" => "Caleb Cushing <xenoterracide\@gmail.com>",
   "BUILD_REQUIRES" => {
     "Catalyst::Test" => 0,
@@ -31,7 +31,7 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "Catalyst" => 0,
     "Catalyst::Controller" => 0,
-    "Catalyst::Runtime" => "5.80",
+    "Catalyst::Runtime" => "5.90",
     "Moose" => 0,
     "namespace::autoclean" => 0
   },

@@ -1,27 +1,8 @@
 NAME
-    App::WWW::PasteBin
+    App::WWW::PasteBin - Modern Perl PasteBin
 
 VERSION
     version 0.001000
-
-SYNOPSIS
-        script/app_www_pastebin_server.pl
-
-DESCRIPTION
-    [enter your description here]
-
-NAME
-    App::WWW::PasteBin - Catalyst based application
-
-SEE ALSO
-    App::WWW::PasteBin::Controller::Root, Catalyst
-
-AUTHOR
-    Caleb Cushing <xenoterracide@gmail.com>
-
-LICENSE
-    This library is free software. You can redistribute it and/or modify it
-    under the same terms as Perl itself.
 
 BUGS
     Please report any bugs or feature requests on the bugtracker website

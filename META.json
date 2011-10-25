@@ -1,5 +1,5 @@
 {
-   "abstract" : "Catalyst based application",
+   "abstract" : "Modern Perl PasteBin",
    "author" : [
       "Caleb Cushing <xenoterracide@gmail.com>"
    ],
@@ -28,7 +28,7 @@
          "requires" : {
             "Catalyst" : 0,
             "Catalyst::Controller" : 0,
-            "Catalyst::Runtime" : "5.80",
+            "Catalyst::Runtime" : "5.90",
             "Moose" : 0,
             "namespace::autoclean" : 0
          }

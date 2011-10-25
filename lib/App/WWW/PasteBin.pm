@@ -2,7 +2,9 @@ package App::WWW::PasteBin;
 use Moose;
 use namespace::autoclean;
 
-use Catalyst::Runtime 5.80;
+use Catalyst::Runtime 5.90;
+
+our $VERSION = '0.001000'; # VERSION
 
 # Set flags and add plugins for the application.
 #
@@ -17,14 +19,11 @@ use Catalyst::Runtime 5.80;
 #                 directory
 
 use Catalyst qw/
-    -Debug
     ConfigLoader
     Static::Simple
 /;
 
 extends 'Catalyst';
-
-our $VERSION = '0.01';
 
 # Configure the application.
 #
@@ -45,45 +44,20 @@ __PACKAGE__->config(
 # Start the application
 __PACKAGE__->setup();
 
-
-
 1;
+
+# ABSTRACT: Modern Perl PasteBin
 
 __END__
 =pod
 
 =head1 NAME
 
-App::WWW::PasteBin
+App::WWW::PasteBin - Modern Perl PasteBin
 
 =head1 VERSION
 
 version 0.001000
-
-=head1 SYNOPSIS
-
-    script/app_www_pastebin_server.pl
-
-=head1 DESCRIPTION
-
-[enter your description here]
-
-=head1 NAME
-
-App::WWW::PasteBin - Catalyst based application
-
-=head1 SEE ALSO
-
-L<App::WWW::PasteBin::Controller::Root>, L<Catalyst>
-
-=head1 AUTHOR
-
-Caleb Cushing <xenoterracide@gmail.com>
-
-=head1 LICENSE
-
-This library is free software. You can redistribute it and/or modify
-it under the same terms as Perl itself.
 
 =head1 BUGS
 

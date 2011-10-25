@@ -50,7 +50,7 @@ sub pmver {
 
 eval { $v .= pmver('Catalyst','any version') };
 eval { $v .= pmver('Catalyst::Controller','any version') };
-eval { $v .= pmver('Catalyst::Runtime','5.80') };
+eval { $v .= pmver('Catalyst::Runtime','5.90') };
 eval { $v .= pmver('Catalyst::Test','any version') };
 eval { $v .= pmver('English','any version') };
 eval { $v .= pmver('ExtUtils::MakeMaker','6.30') };

@@ -46,9 +46,19 @@ __PACKAGE__->config(
 __PACKAGE__->setup();
 
 
+
+1;
+
+__END__
+=pod
+
 =head1 NAME
 
-App::WWW::PasteBin - Catalyst based application
+App::WWW::PasteBin
+
+=head1 VERSION
+
+version 0.001000
 
 =head1 SYNOPSIS
 
@@ -57,6 +67,10 @@ App::WWW::PasteBin - Catalyst based application
 =head1 DESCRIPTION
 
 [enter your description here]
+
+=head1 NAME
+
+App::WWW::PasteBin - Catalyst based application
 
 =head1 SEE ALSO
 
@@ -71,6 +85,26 @@ Caleb Cushing <xenoterracide@gmail.com>
 This library is free software. You can redistribute it and/or modify
 it under the same terms as Perl itself.
 
+=head1 BUGS
+
+Please report any bugs or feature requests on the bugtracker website
+https://github.com/xenoterracide/App-WWW-PasteBin/issues
+
+When submitting a bug or request, please include a test-file or a
+patch to an existing test-file that illustrates the bug or desired
+feature.
+
+=head1 AUTHOR
+
+Caleb Cushing <xenoterracide@gmail.com>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is Copyright (c) 2011 by Caleb Cushing.
+
+This is free software, licensed under:
+
+  The Artistic License 2.0 (GPL Compatible)
+
 =cut
 
-1;
